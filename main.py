@@ -55,7 +55,7 @@ sylvia = Student(
 ocelots_cohort = Cohort("Ocelots", [samara, claire])
 ocelots_cohort.get_num_students()  # => 2
 ocelots_cohort.add_student(sylvia)  # => [samara, claire, sylvia]
-ocelots_cohort.get_student_summaries() 
+print(ocelots_cohort.get_student_summaries()) 
 '''
 Output of line 58:
 
